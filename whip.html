@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Кнут </title>
+		<script src = 'whip.js'>
+		</script>
+	</head>
+	<body>
+		<div id = 'Canvas'>
+		<b>
+		<canvas id = 'cnv' width = 1500 height = 500 style='border: 5px solid rgb(16, 54, 242); border-radius: 10px;'></canvas>
+		<p style='text-align: center;'>
+		<br>
+		<br>
+		<label style='text-align: center;'>Жесткость<input type = 'text' id = 'cm' value = '1000' style="appearance: none;
+			border: none;
+			outline: none;
+			border-bottom: .2em solid rgb(16, 54, 242);
+			background: rgba(rgb(16, 54, 242), .2);
+			border-radius: .2em .2em 0 0;
+			padding: .4em;
+			color: rgb(16, 54, 242);"></label>
+		<label style='text-align: center;'>Вязкость  <input type = 'text' id = 'b' value = '1' style="appearance: none;
+			border: none;
+			outline: none;
+			border-bottom: .2em solid rgb(16, 54, 242);
+			background: rgba(rgb(16, 54, 242), .2);
+			border-radius: .2em .2em 0 0;
+			padding: .4em;
+			color: rgb(16, 54, 242);"></label>
+		<label style='text-align: center;'>Число элементов<input type = 'text' id = 'N' value = '50' style="appearance: none;
+			border: none;
+			outline: none;
+			border-bottom: .2em solid rgb(16, 54, 242);
+			background: rgba(rgb(16, 54, 242), .2);
+			border-radius: .2em .2em 0 0;
+			padding: .4em;
+			color: rgb(16, 54, 242);"></label>
+		<label style='text-align: center;'> Расстояние между элементами <input type = 'text' id = 'distance' value = '14' style="appearance: none;
+			border: none;
+			outline: none;
+			border-bottom: .2em solid rgb(16, 54, 242);
+			background: rgba(rgb(16, 54, 242), .2);
+			border-radius: .2em .2em 0 0;
+			padding: .4em;
+			color: rgb(16, 54, 242);">
+		<br>
+		<br>
+		<input type = "button" id = "reboot" value = "Обновить" style="
+		cursor: pointer;
+		outline: 0;
+		display: inline-block;
+		font-weight: 400;
+		line-height: 1.5;
+		text-align: center;
+		background-color: transparent;
+		border: 1px solid transparent;
+		padding: 6px 12px;
+		font-size: 1rem;
+		border-radius: .25rem;
+		transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+		color: rgb(16, 54, 242);
+		border-color: rgb(16, 54, 242);
+		:hover {
+			color: #fff;
+			background-color: rgb(16, 54, 242);
+			border-color: rgb(16, 54, 242);
+		}
+	"/> 	<input type="button" id = "Stop" value = "Стоп" style="
+                    cursor: pointer;
+                    outline: 0;
+                    display: inline-block;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    text-align: center;
+                    background-color: transparent;
+                    border: 1px solid transparent;
+                    padding: 6px 12px;
+                    font-size: 1rem;
+                    border-radius: .25rem;
+                    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                    color: rgb(16, 54, 242);
+                    border-color: rgb(16, 54, 242);
+                    :hover {
+                        color: #fff;
+                        background-color: rgb(16, 54, 242);
+                        border-color: rgb(16, 54, 242);
+                    }
+                "/> 
+		</b>
+		<br>
+		</p>
+		</div>
+	</body>
+</html>
